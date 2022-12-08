@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <link rel="icon" href="img/logo_white.png">
+  </head>
+  <body>
+    <div id="page">
+      <header class="header">
+        <div class="container header__container">
+          <a href="" class="header__logo">
+            <img src="img/logo_white.png" style="width: 60px;" alt="Leaf">
+          </a>
+          <nav class="header__menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#home" class="menu__link">HOME</a>
+              </li>
+              <li class="menu__item">
+                <a href="#work" class="menu__link">WORK</a>
+              </li>
+              <li class="menu__item">
+                <a href="#about" class="menu__link">ABOUT</a>
+              </li>
+              <li class="menu__item">
+                <a href="#contact" class="menu__link">CONTACT</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="menu__icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </header>
+      <section class="hero observe" id="home">
+        <div class="container">
+          <h1 class="hero__title"> Natural <span>UI/UX</span> and clean <span>Code</span>, like a Leaf </h1>
+          <a href="#work" class="hero__arrow"></a>
+        </div>
+        <span class="hero__p">Click to Scroll</span>
+      </section>
+      <section class="clients">
+        <div class="container clients__container">
+          <h2 class="clients__title">
+            <span>The Last <br>
+            </span>Clients I worked for
+          </h2>
+          <div class="clients__body">
+            <div class="clients__item">
+              <img src="img/red_graphic.png" alt="Red Graphic">
+            </div>
+            <div class="clients__item">
+              <img src="img/hatzalah.png" alt="United Hatzalah" style="border-radius: 16px">
+            </div>
+            <div class="clients__item">
+              <img src="img/jerusalem.png" alt="Jerusalem Municipality" style="border-radius: 16px">
+            </div>
+            <div class="clients__item">
+              <img src="img/telaviv.png" alt="Tel-Aviv Municipality">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="work" class="observe works">
+        <div class="container works__container">
+          <h2 class="works__title">Selected <span>Works</span>
+          </h2>
+          <div class="works__body">
+            <div class="works__card card">
+              <div class="card__img">
+                <a href="https://uxzh.github.io">
+                  <img src="img/cards/card-1.gif" alt="Card 1">
+                </a>
+              </div>
+              <div class="card__info">
+                <span class="card__tag">Personal Website</span>
+                <div class="card__text">
+                  <span>Main Portfolio Website</span> made in early 2020, hosted on github pages, created with love.
+                </div>
+                <div class="card__category">HTML, CSS, JS & React</div>
+                <button onclick="location.href='https://uxzh.github.io'" class="glow-on-hover" type="button">View Project</button>
+              </div>
+            </div>
+            <div class="works__card card card_r">
+              <div class="card__img">
+                <a href="https://pixelearn.com">
+                  <img src="img/cards/card-2.png" alt="Card 2">
+                </a>
+              </div>
+              <div class="card__info">
+                <span class="card__tag">PixeLearn</span>
+                <div class="card__text">
+                  <span>Digital Education Platform</span> for kids of all ages, made simple but yet effectively accessible.
+                </div>
+                <div class="card__category">SCSS, node.js</div>
+                <button onclick="location.href='https://pixelearn.com'" class="glow-on-hover" type="button">View Project</button>
+              </div>
+            </div>
+            <div class="works__card card">
+              <div class="card__img">
+                <a href="https://drive.google.com/file/d/18LBUcc9PfjVEYCkPSghL3m0ImE0eul-6/view?usp=sharing">
+                  <img src="img/cards/card-3.jpg" alt="Card 3">
+                </a>
+              </div>
+              <div class="card__info">
+                <span class="card__tag">Custom Minecraft Launcher</span>
+                <div class="card__text">
+                  <span>Server-Based, Custom Minecraft Client</span> made spicifically for educational purposes.
+                </div>
+                <div class="card__category">Java, Git, AWS</div>
+                <button onclick='location.href="https://drive.google.com/file/d/18LBUcc9PfjVEYCkPSghL3m0ImE0eul-6/view?usp=sharing"' class="glow-on-hover" type="button">View Project</button>
+              </div>
+            </div>
+            <div class="works__card card card_r">
+              <div class="card__img">
+                <img src="img/cards/card-4.png" alt="">
+              </div>
+              <div class="card__info">
+                <span class="card__tag">ECOLY</span>
+                <div class="card__text">
+                  <span>eCommerce Business Website</span> made for organic, eco-friendly products. <span>The site is no longer available.</span>
+                </div>
+                <div class="card__category">UX, UI, CSS</div>
+                <button class="glow-on-hover notavailable" type="button">Not Available</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about observe ">
+        <div class="container about__container">
+          <div class="about__info">
+            <h2 class="about__title">A bit about me</h2>
+            <div class="about__text">I am a UI/UX Designer & Front End Developer <span>who is passionate about creating beautiful and joyful digital experiences. Besides design, </span>I love coding, physics, math and crypto. </div>
+          </div>
+          <div class="about__gallery">
+            <div class="about__img">
+              <img src="img/me.jpg" alt="">
+            </div>
+            <div class="about__img">
+              <img src="img/math.jpg" alt="">
+            </div>
+            <div class="about__img">
+              <img src="img/crypto.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="time">
+        <h1 style="color: rgb(202, 202, 202); text-align: center;">My Lifeline</h1>
+        <br>
+        <div class="timeline">
+          <div class="lifeline">
+            <table class="rwd-table">
+              <tr>
+                <th>City</th>
+                <th>Country</th>
+                <th>Year</th>
+              </tr>
+                <!-- <tr>
+                <td id="Jerusalem" data-th="City">Jerusalem</td>
+                <td data-th="Country">Israel</td>
+                <td data-th="Year">2019</td>
+              </tr>
+              <tr>
+                <td id="Karmiel" data-th="City">Karmiel</td>
+                <td data-th="Country">Israel</td>
+                <td data-th="Year">2018</td>
+              </tr>
+              <tr>
+                <td id="Gomel" data-th="City">Gomel</td>
+                <td data-th="Country">Belarus</td>
+                <td data-th="Year">2006</td>
+              </tr>
+              <tr>
+                <td id="TelAviv" data-th="City">Tel Aviv</td>
+                <td data-th="Country">Israel</td>
+                <td data-th="Year">2001</td>
+              </tr> -->
+            </table>
+          </div>
+          <div id="show" class="lifeline">
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108513.53177978152!2d35.10531875061222!3d31.796445332992263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502d7d634c1fc4b%3A0xd96f623e456ee1cb!2sJerusalem!5e0!3m2!1sen!2sil!4v1664155163649!5m2!1sen!2sil" width="400" height="130" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <button onclick="change()" id="map__button">></button>
+          <button onclick="changeback()" id="map__button__back" disabled><</button>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="contact__me">
+          <h1 style="color: rgb(217, 217, 217); text-align:center;">Write Me a Note</h1>
+          <form name="myform" id="form" class="topBefore" action="https://formspree.io/f/mgeqkzyr" enctype="multipart/form-data" method="POST">
+            <input id="name" type="text" placeholder="NAME" required>
+            <input id="surname" type="text" placeholder="SURNAME">
+            <input name="email" id="email" type="email" placeholder="E-MAIL" required>
+            <textarea name="message" id="message" placeholder="MESSAGE" required></textarea>
+            <input type="submit" id="submit" value="SEND THE MESSAGE" disabled>
+          </form>
+        </div>
+      </section>
+      <section id="contact" class="observe">
+        <footer class="footer">
+          <div class="container footer__container">
+            <h3 class="footer__title">
+            <span>Get</span> in Touch
+             </h3>
+             <span class="footer__subtitle">To talk about your project...</span>
+             <h3 class="github__title">This is my <span>Github</span> page</h3>
+            <div class="github">
+             <div class="github__info">
+              <a href="" target="_blank" id="github__link"><img id="github__image"></a>>
+             </div>
+             <div>
+             <h3 class="github__nickname">Nickname: <span id="github__name"></span>
+             <h3 class="github__repos">Repositories: <span id="github__repos"></span>
+              <h3 class="github__bio">Bio: <span id="github__bio"></span>
+             </div>
+            </div>
+            <div class="footer__socials">
+              <div class="footer__social">
+                <a href="mailto:uxzh@pm.me">
+                  <img alt="email" src="img/email.png">
+                </a>
+                <a href="https://www.linkedin.com/in/mark-leaf-77b488248/">
+                  <img alt="linkedin" src="img/linkedin.png">
+                </a>
+                <a href="https://stackoverflow.com/users/20085436/markus-leaf">
+                  <img alt="stack overflow" src="img/stack-overflow.png">
+                </a>
+                <a href="https://github.com/uxzh">
+                  <img alt="github" src="img/github.png">
+                </a>
+              </div>
+            </div>
+            <div class="footer__copyright">Made with 💘 by <a href="https://t.me/uxisr">Mark Leaf</a> for <a href="https://www.itc.tech">ITC</a>
+            </div>
+            <div class="footer__copyright"> This page was built using: <span id="coding"></span>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
